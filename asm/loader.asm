@@ -111,7 +111,8 @@ ARUN_PROG
             ;  1 NEW
             .word 0
             .byte $19,$07,TOK_TRAP,CN1,CEOS
-            .byte $19, TOK_RUN,$0F,$0D,'D:AUTORUN.BAS ', CCR
+            .byte $1A, TOK_RUN,$0F,$0E,'D:AUTORUN.BAS ', CCR
+            ;.byte $19, TOK_RUN,$0F,$0D,'D:AUTORUN.BAS ', CCR
             .word 1
             .byte $06,$06,TOK_NEW,CCR
 ARUN_LEN    = * - ARUN_PROG
