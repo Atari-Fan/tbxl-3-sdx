@@ -30,7 +30,8 @@ TBXL_ROMLOADER = $6000
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Include the LOADER
-        icl "asm/turbo-loader.asm"
+; wyłączenie winiety
+;        icl "asm/turbo-loader.asm"
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Start of TurboBasic XL Code in low RAM
